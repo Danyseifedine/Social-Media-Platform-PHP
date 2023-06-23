@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 23, 2023 at 07:53 PM
+-- Generation Time: Jun 23, 2023 at 08:04 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -105,7 +105,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `email`, `password`, `image`, `description`, `phone`, `country`, `date`, `status`) VALUES
-(83, 'testtest', 'test@gmail.com', '$2y$10$5D2Zj9q15u/i7KsX.P61VeAlCVdNiMce01m.frUhanFBJr.ZclRCS', '64783bfcf29e7.png', NULL, NULL, NULL, '2023-06-01 09:34:37', 'active');
+(83, 'testtest', 'test@gmail.com', '$2y$10$5D2Zj9q15u/i7KsX.P61VeAlCVdNiMce01m.frUhanFBJr.ZclRCS', '6495f94137c6d.jpg', '', '', '', '2023-06-01 09:34:37', 'active');
 
 --
 -- Indexes for dumped tables
