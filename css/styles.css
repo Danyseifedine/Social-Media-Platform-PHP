@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url('../assets/fonts/Poppins-Medium.ttf');
+}
+
+
+
+body {
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+
+}
+
+* {
+
+  font-family: "Poppins-Medium";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+form {
+
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 20px;
+
+}
+
+.inputbox {
+
+  position: relative;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.bi {
+
+  font-size: 30px !important;
+  color: #6C63FF;
+
+}
+
+.inputbox input {
+
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  outline: none;
+  color: black;
+  font-size: 1em;
+  transition: 0.5s;
+
+}
+
+
+
+
+input:last-child:hover {
+
+  background-color: #6C63FF;
+  border: 1px solid #6C63FF;
+  color: white;
+
+}
+
+img {
+
+  width: 500px;
+
+}
+
+
+
+/* media query */
+
+@media (max-width:1023px) {
+
+  #anime {
+
+    display: none;
+
+  }
+  #anime2 {
+
+    display: none;
+
+  }
+}
+
+@media (width > 500px) {}
+
+@media (max-width:425px) {
+
+  body {
+
+    display: block;
+
+  }
+
+  .inputbox {
+
+    width: 300px;
+
+  }
+
+  .bi {
+
+    font-size: 25px !important;
+    
+  }
+
+  .custom-file-input::before {
+
+    content: 'profile image';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-left: 45px;
+    padding: 1px 20px 1px 5px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-size: 15pt;
+
+  }
+
+}
