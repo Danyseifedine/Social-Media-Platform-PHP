@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/daniseifeddine/Ds-Validator-Toolkit/main/media/logo.png" alt="Logo" width="200">
+</p>
+
 To fix any issues with my **PHP social media network** project, please follow these steps:
 
 1.Download the project files.
